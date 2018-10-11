@@ -29,7 +29,12 @@ function calculatesFarePrice(start, destination) {
     return (feetTravelled - 400) * .02
   }
 
+  else if (feetTravelled > 2500) {
+    return 'cannot travel that far'
+  }
+  
   else if (feetTravelled > 2000) {
     return 25
   }
+
 }
