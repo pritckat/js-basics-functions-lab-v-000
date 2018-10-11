@@ -1,4 +1,4 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(location) {
-  return location * 264
+  return 44 - location
 }
