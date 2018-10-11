@@ -12,6 +12,6 @@ function distanceFromHqInFeet(blocks) {
   return distanceFromHqInBlocks(blocks) * 264
 }
 
-funciton distanceTravelledInFeet() {
-
+funciton distanceTravelledInFeet(start, stop) {
+  return (stop - start) * 264
 }
